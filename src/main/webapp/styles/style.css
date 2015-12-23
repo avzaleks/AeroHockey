@@ -1,0 +1,130 @@
+@CHARSET "UTF-8";
+
+html{
+	
+overflow-x: hidden;
+overflow-y: hidden	
+	
+}
+
+
+body {
+	margin: 0;
+	background-color: green
+}
+		
+canvas {
+	width: 100%;
+	height: 100%;
+    z-index:0
+}
+
+#msgs{
+	width: 250px;
+	height: 300px;
+	position: absolute;
+	z-index:100;
+	
+}
+
+#msgs p {
+	color: white;
+	padding:0 ;
+	margin-top: 10 ;
+	margin-bottom: 10 
+}
+
+legend {
+	color: white;
+}
+
+#rules{
+	width: 85%;
+	height: 200px;
+	position: absolute;
+	z-index:100;
+	left:7%;
+	top:67%;
+    color: #000066;
+    font-size:30;
+    font-weight: 800;
+	margin-top: 10 ;
+	margin-bottom: 10 
+}
+
+#rules fieldset{
+	border: red 3px solid;
+}
+
+#understand {
+	margin: 0 auto;
+    width:200px;
+}
+
+#Nonunderstand {
+	position: absolute;
+	z-index:100;
+	top:95%;
+    display: none
+
+}
+
+#rules fieldset p,ul {
+	margin-top: 0 ;
+	margin-bottom: 0 
+}
+
+
+#rules legend {
+	color: red;
+}
+
+ul {
+	font-size:18;
+}
+
+#start{
+	display: none
+}
+
+#opponentIdDiv{
+	display: none
+}
+
+#field {
+	color: white;
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	z-index:100;
+	left:75%;
+    top:10%;
+    display: none
+}
+
+#watch {
+	position: absolute;
+	z-index:100;
+	top:2%;
+    left:85%;
+}
+
+#notWatch {
+	position: absolute;
+	z-index:100;
+	top:2%;
+    left:90%;
+    display:none
+}
+
+#par{
+	margin-top: 1 ;
+	margin-bottom: 1 
+}
+
+#stopGame{
+	display:none;
+}
+
+
+
